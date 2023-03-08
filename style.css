@@ -7,13 +7,12 @@
 }
 .sidebar{
     font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
     background-color: red;
     width: 20vw;
     height: 100vh;
 }
 .sidebar nav{
-    padding: 45px;
+    padding: 26px;
 }
 .sidebar nav li{
     list-style: none;
@@ -22,7 +21,7 @@
 
 }
 
-main{   
+.main{   
     background-color: yellow;
     width: 90vw;
 }
@@ -30,4 +29,17 @@ main{
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     display: flex;
+}
+
+.infocontainer{
+    background-color: rgb(199, 21, 95);
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img
+{
+    width: 407px;
 }
