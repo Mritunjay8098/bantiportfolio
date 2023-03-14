@@ -6,8 +6,10 @@
     padding: 0;
 }
 .sidebar{
+    background-color: rgb(240, 240, 230);
     font-family: 'Lato', sans-serif;
-    background-color: red;
+    width: 434px;
+    /*background-color: red;*/
     width: 20vw;
     height: 100vh;
 }
@@ -21,8 +23,13 @@
 
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
 .main{   
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 90vw;
 }
 .container{
@@ -32,14 +39,49 @@
 }
 
 .infocontainer{
-    background-color: rgb(199, 21, 95);
-    height: 78vh;
+    background-color: rgb(214, 106, 151);
+    height: 58vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
 }
+.hello{
+   font-size: 65px;
+}
+.name{
+    font-size:50px;
+    font-weight: bold;
+    
+
+}
+.about{
+ font-size: 40px;
+}
+
+.button button{
+padding: 9px 14px;
+border-radius: 22px;
+color:white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer 
+}
+
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .devpic img
 {
     width: 407px;
+    height: 58vh;
 }
